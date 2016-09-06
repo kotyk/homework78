@@ -1,0 +1,78 @@
+.wrapper{
+	width: 960px;
+}
+.logo{
+	left: 2%;
+}
+.menu{
+	margin-top:-57px;
+	margin-left: 315px;
+}
+
+.text1{
+	margin-left: 2%;
+}
+
+.text2{
+	margin-left: 2%;
+}
+.text3{
+	margin-left: 2%;
+	width: 500px;
+}
+
+.phone{
+	top: 115px;
+	}
+.form{
+	top: 707px;
+	left: 74%;
+}
+section{
+	width: 260px;
+}
+
+.more{
+	margin-left: 198px;
+}
+
+.quote{
+	width: 449px;
+}
+
+.quote_slider{
+	left: 22%;
+}
+.brands{
+	width: 780px;
+	margin: 0 auto;
+}
+.brands > div{
+	margin-right: 48px;
+}
+
+.brands>.brand6{
+	margin-right: 0;
+}
+
+.news_categories{
+	width: 280px;
+	margin-right: 23px;
+}
+
+footer{
+	height: 110px;
+}
+.footer_content{
+	width: 925px;
+}
+
+.footer_menu{
+	float: left;
+}
+.copyright{
+	float: right;
+	width: 300px;
+}
+
+
