@@ -1,6 +1,5 @@
-.wrapper{
-	width: 960px;
-}
+@media screen and (min-width: 960px){
+
 .logo{
 	left: 2%;
 }
@@ -73,6 +72,7 @@ footer{
 .copyright{
 	float: right;
 	width: 300px;
+}
 }
 
 

@@ -1,3 +1,5 @@
+@media screen and (max-width: 479px) {
+
 .text2{
 	margin-top: 5px;
 }
@@ -52,4 +54,5 @@ header .menu_list_item:hover{
 }
 .text2{
 	margin-top: 3px;
+}
 }
