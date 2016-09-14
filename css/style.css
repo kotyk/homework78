@@ -1,7 +1,3 @@
-.wrapper{
-	width: 960px;
-}
-
 @font-face{
 	font-family: "League Gothic";
 	src: url(../fonts/league-gothic.regular.ttf);
@@ -63,12 +59,12 @@ header{
 .menu_list_item{
 	display: inline-block;
 	margin-right: 37px;
-
 }
 
 .menu_list_item: last-child {
 	margin-right:0;
 }
+
 .menu_list_item_link{
 	display: block;
 	padding: 0 6px 0 7px;
@@ -86,19 +82,24 @@ header{
 	font-family: "League Gothic";
 	font-size: 36px;
 }
+
 .text2{
-	width: 210px;
+	width: 215px;
 	margin: 0 auto;
 	color: #edbfff;
 	font-family: "League Gothic";
 	text-transform: uppercase;
 	font-size: 18px;
-	line-height: 15px;
+	line-height: 16px;
+	
+	height: 15px;
+	overflow: hidden;
 }
 
 .text3{
 	display: none;
 }
+
 .form{
 	position: absolute;
 	top: 460px;
@@ -188,7 +189,6 @@ section > .heading{
 	vertical-align: top;
 	height: 63px;
 	overflow: hidden;
-
 }
 
 section> a{
@@ -199,6 +199,7 @@ section> a{
 	margin-left: 208px;
 	text-decoration: none;
 }
+
 .section2{
 	margin-bottom: 32px;
 }
@@ -224,6 +225,7 @@ main{
 	padding-top: 22px;
 	position: relative;
 }
+
 .man{
 	position: absolute;
 	top: 7%;
@@ -258,7 +260,6 @@ blockquote{
 	height: 168px;
 	overflow: hidden;
 	letter-spacing: 0.4px;
-
 }
 
 .quote_slider{
@@ -311,9 +312,9 @@ blockquote{
 	width: 280px;
 	margin: 0 auto;
 }
+
 .updates{
-		margin-bottom:  10px;
-		
+	margin-bottom:  10px;
 }
 
 .updates2{
@@ -343,8 +344,6 @@ blockquote{
 	display: inline-block;
 	margin-left: 9px;
 	vertical-align: top;
-	
-	
 }
 
 .updates_text > p{
@@ -353,7 +352,6 @@ blockquote{
 	width: 160px;
 	height: 24px;
 	overflow: hidden;
-
 }
 
 .updates_text>.date{
@@ -383,10 +381,12 @@ blockquote{
 	padding-top: 50px;
 	box-sizing: border-box;
 }
+
 .brands{
 	width: 240px;
 	margin: 0 auto;
 }
+
 .brand1{
 	display: inline-block;
 	margin-right: 43px;
@@ -411,7 +411,6 @@ blockquote{
 	background: url(../img/brands_sprite.png) -160px 1px no-repeat;
 	margin-top: 50px;
 	margin-left: 10px;
-
 }
 
 .brand4{
@@ -441,24 +440,26 @@ blockquote{
 .categories{
 	display:none;
 }
+
 footer{
 	background: url(../img/footer.png) no-repeat;
 	height: 200px;
 	padding-top: 45px;
 	box-sizing: border-box;
 }
+
 .copyright{
 	font-family: "Open Sans";
 	font-size: 12px;
 	color: #fff;
 	text-align: center;
 	margin-top: 0;
-
 }
+
 .copyright > span{
 	font-family: "Open Sans ExtraBold";
-	
 }
+
 .footer_menu{
 	display: none;
 }
