@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px){	
+@media screen and (min-width: 768px) and (max-width: 959px){	
 
 	header{
 		height: 800px;
@@ -160,6 +160,11 @@
 		margin-left: 142px;
 	}
 
+
+	main{
+		height: 488px;
+		padding-top: 100px;
+	}
 	.quote{
 		display: inline-block;
 		width: 315px;
@@ -187,11 +192,6 @@
 
 	.updates_text>.date{
 		width: 260px;
-	}
-
-	main{
-		height: 488px;
-		padding-top: 100px;
 	}
 
 	.recent{
@@ -231,7 +231,7 @@
 	}
 
 	.categories_heading{
-		font-family: "League Gothic";
+		font-family: "League Gothic", Arial, sans-serif;
 		font-size: 24px;
 		color: #454545;
 		text-transform: uppercase;
