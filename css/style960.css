@@ -1,9 +1,6 @@
 @media screen and (min-width: 960px){
 
-      body{
-      overflow-x:hidden;
-      }  
-      
+        
  	header{
 		height: 845px;
 	}
@@ -14,9 +11,11 @@
 	}
 
 	.menu{
-		width: 640px;
+		display: inline-block;
+		width: 611px;
 		margin-left: 310px;
 		margin-top: -10px;
+		margin-right: 0px;
 	}
 
       .home{
@@ -34,7 +33,7 @@
 
 	.menu_list_item{
 		display: inline-block;
-		margin-right: 30px;
+		margin-right: 28px;
 		height: 25px;
 	}
 
@@ -160,7 +159,7 @@
 	}
 
 	.about_company_content{
-		width: 945px;
+		width: 943px;
 		margin: 0 auto;
 	}
 
@@ -192,11 +191,6 @@
 
 	.man{
 		left: -6%;
-	}
-
-	.main_content{
-		width: 963px;
-		margin: 0 auto;
 	}
 
 	blockquote{
@@ -255,7 +249,7 @@
 		margin-right: 0;
 	}
 
-       .categories{
+	.categories{
 		display: block;
 		height: 400px;
 		background-color: #ececec;
@@ -264,11 +258,6 @@
 		box-sizing: border-box;
 		padding-left: 25px;
 	}
-
-       .categories_content{
-	       width: 945px;
-		margin: 0 auto;
-}
 
        .news_categories{
 		display: inline-block;
